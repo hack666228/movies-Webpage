@@ -1,0 +1,44 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: url("SPb-Nevskiy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu {
+    background-color: rgb(55, 194, 55);
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    background: rgb(2,0,36);
+    background: linear-gradient(99deg, rgba(2,0,36,1) 0%, rgba(0,181,255,1) 100%);
+    color: beige;
+    font-family: 'Bad Script', cursive;
+}
+.menu a {
+    display: block;
+    color: beige;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.menu a:hover {
+   background-color: black;
+}
+.content {
+    width: calc(100% - 200px);
+    margin-left:200px;
+    text-align: center;
+}
+.content img {
+    width: 50%;
+    margin-bottom: 50px;
+}
+h2 {
+    font-family: 'Bad Script', cursive;
+    color:beige;
+    font-size: 30px;
+
+}
